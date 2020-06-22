@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>My Webpage</title>
+	 <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/> 
+		
+    </head>
+    <body>
+	<div id="banner">
+		 <img src="img/banner.png"   width="100%">
+	</div>
+	
+	<nav>
+    
+		
+		 <a href="index.html" class="button">Home</a>
+		 <a href="members.html" class="button">Members</a>
+		 <a href="awardwinners.html" class="button">Award Winners</a>
+		 <a href="contactus.html" class="button">contact Us</a>
+	
+	</nav>	
+		
+		<h1>Contact Us</h1>
+		<form>
+		<div>
+		First Name<input name="firstname" type="text"  placeholder="First Name">
+		Last Name<input name="lastname" type="text"  placeholder="Last Name">
+		</div>
+		<div>
+		Date of Birth<input name="dob" type="datetime" placeholder="Date of Birth">
+		Age	<input name="age	" type="number" placeholder="Age">
+		</div>
+		
+		<div>
+		Passport No<input name= "passportno" type="text" placeholder="Passport No">
+		Email Address<input name="email" type="text"  placeholder="Email Addrss">
+		</div>
+		
+		<div>
+		Gender <input name="gender" type="radio" value="male">Male    
+		       <input name="gender" type="radio" value="female">Female
+		
+		
+                City<input name="city" list="city" placeholder="City">
+                <datalist id="city">
+                    <option value="Abha">
+                    <option value="Dammam">   
+		            <option value="Jeddah"> 
+					<option value="Riyadh"> 
+					<option value="Alkhobar">
+                    <option value="Al Jubail">   
+		            <option value="Jeezan"> 
+					<option value="Alkharj"> 
+					
+		        </datalist>
+		</div>
+		<div>
+		<button>Submit</button>
+		</div>
+		</form>
+		
+    </body>
+</html>
